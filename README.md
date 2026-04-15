@@ -61,7 +61,7 @@ pytest tests/
 ## Ket qua
 
 - **Tổng số records đọc vào:** 5
-- **Records hợp lệ (sau validate):** 3 (loai bo 2 records: giá âm va category rỗng)
+- **Records hợp lệ (sau validate):** 3 (loại bỏ 2 records: giá âm va category rỗng)
 - **Records bị loại:** 2
 - **Transformations:** tính `discounted_price` = price * 0.9, chuẩn hoá category thành Title Case, thêm cột `processed_at`
 - **Output:** `processed_data.csv` với 3 records đã xử lý
